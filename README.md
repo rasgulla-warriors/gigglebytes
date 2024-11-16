@@ -13,11 +13,11 @@
 * [2018](https://www.kaggle.com/datasets/namitaachyuthanpesu/2018-pcap-to-csv)
 * [2016](https://www.kaggle.com/datasets/namitaachyuthanpesu/2016-pcap-to-csv)
 ---
-## Method of extraction: 
+## How I extracted: 
 1. Main directory -> Year -> equinix data-> pass through ```final-pcap-gz.ipynb```
      * pcap.gz files were unzipped into different directories
 2. Unzipped files were passed through ```losingMyMind.ipynb```
      * pcap files were split into 100MB chunks and then interated through
 3. Regions differ across years: 2014-2016 are from Chicago, 2018-2019 are NY
 ---
-## For prerequisites, just use ```requirements.txt```
+**Make sure to use the ```requirements.txt``` file for any necessary dependencies.**
